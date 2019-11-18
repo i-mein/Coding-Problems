@@ -92,7 +92,7 @@ static void MakeChange(double origAmount, double remainAmount, int[] coins)
 }
 
 
-// Example
+// Example 
 // Enter the amount in cents (1-100): 100
 // Enter the item cost in cents (1-99): 52
 // The best way to change 48 cents is: 
@@ -101,3 +101,8 @@ static void MakeChange(double origAmount, double remainAmount, int[] coins)
 // Number of 2pcoins is: 1
 // Number of 1pcoins is: 1
 
+
+// CPU Time: 0.02 sec(s)
+// Memory: 26468 kilobyte(s)
+// Compiled and executed in 1.41 sec(s)
+// Run in: https://www.jdoodle.com/compile-c-sharp-online/
