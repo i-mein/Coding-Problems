@@ -54,23 +54,23 @@ static void MakeChange(double origAmount, double remainAmount, int[] coins)
     
     if (arr[4] > 0)            
     Console.WriteLine("Number of 20p coins is: " + arr[4]); 
-    // bale: else Console.WriteLine("Number of 20p coins is: 0");        
+    // add: else Console.WriteLine("Number of 20p coins is: 0");        
     
     if (arr[3] > 0)            
     Console.WriteLine("Number of 10p coins is: " + arr[3]); 
-    // bale: else Console.WriteLine("Number of 10p coins is: 0");
+    // add: else Console.WriteLine("Number of 10p coins is: 0");
         
      if (arr[2] > 0)            
      Console.WriteLine("Number of 5pcoins is: " + arr[2]); 
-     // bale: else Console.WriteLine("Number of 5p coins is: 0");        
+     // add: else Console.WriteLine("Number of 5p coins is: 0");        
      
      if (arr[1] > 0)            
      Console.WriteLine("Number of 2pcoins is: " + arr[1]); 
-     // bale: else Console.WriteLine("Number of 2p coins is: 0");        
+     // add: else Console.WriteLine("Number of 2p coins is: 0");        
      
      if (arr[0] > 0)            
      Console.WriteLine("Number of 1pcoins is: " + arr[0]); 
-     // bale: else Console.WriteLine("Number of 1p coins is: 0");    
+     // add: else Console.WriteLine("Number of 1p coins is: 0");    
     }    
    
    static void Main()    
@@ -90,3 +90,14 @@ static void MakeChange(double origAmount, double remainAmount, int[] coins)
      ShowChange(coins);    
     }
 }
+
+
+// Example
+// Enter the amount in cents (1-100): 100
+// Enter the item cost in cents (1-99): 52
+// The best way to change 48 cents is: 
+// Number of 20p coins is: 2
+// Number of 5pcoins is: 1
+// Number of 2pcoins is: 1
+// Number of 1pcoins is: 1
+
